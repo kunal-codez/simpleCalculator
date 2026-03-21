@@ -57,3 +57,17 @@ button:active{
 .operator-btn{
     color: #ff9f56;
 }
+
+.operator-btn:hover{
+    color: #f6964c;
+}
+
+.equals-btn{
+    background-color: #ff9f56;
+    color: white;
+}
+
+.equals-btn:hover{
+    background-color: #f9903f;
+    color: white;
+}

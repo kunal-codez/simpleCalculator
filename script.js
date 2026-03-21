@@ -1,6 +1,9 @@
 const display = document.getElementById("display");
 const operator = ['+', '-', '*', '/', '%'];
 function appendToDisplay(input) {
+   if(display.value === "Error"){
+      display.value="";
+   }
    const lastDisplay = display.value.slice(-1);
    if (operator.includes(lastDisplay) && operator.includes(input)) {
       display.value = display.value.slice(0, -1) + input;
