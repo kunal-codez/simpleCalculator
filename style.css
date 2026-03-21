@@ -42,6 +42,7 @@ button{
     font-size: 2rem;
     font-weight: bold;
     cursor: pointer;
+    transition: all 0.1s;
 }
 
 button:hover{
@@ -50,6 +51,7 @@ button:hover{
 
 button:active{
     background-color: rgb(172, 168, 168);
+    transform: scale(0.95);
 }
 
 .operator-btn{
